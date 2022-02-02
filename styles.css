@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #ffffff;
+    background-color: #202020;
+    font-family: Handlee;
+    letter-spacing: 0.1em;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('https://1.bp.blogspot.com/-TEafUuqpP2g/YTIOvr_T2lI/AAAAAAAA7Fw/rJRYqb9iqZc5WbBtIdIF_OrGYBr5gvmAgCLcBGAsYHQ/s16000/bg.png');
+}
+
+.main-container {
+    background-color: #282828;
+    background: inherit;
+    padding: 18px;
+    border-radius: 14px;
+    font-weight: bold;
+}
+
+.container1 {
+    margin: 8px;
+}
+
+.profile-heading {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.profile-header {
+    text-align: center;
+}
+
+.profile-icon {
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    transition: transform .5s;
+}
+
+.profile-icon:hover {
+    -ms-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
+
+.links-container {
+    border-radius: 14px;
+    margin: 8px;
+    background-color: #333333;
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding: 8px;
+    font-size: 16px;
+    transition: transform .3s;
+}
+
+.links-container:hover {
+    -ms-transform: scale(1.08);
+    -webkit-transform: scale(1.08);
+    transform: scale(1.08);
+}
